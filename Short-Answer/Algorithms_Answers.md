@@ -37,4 +37,17 @@ number of function calls (n) * work done in each call (O(1)) ---> O(n)
 
 ## Exercise II
 
+def drop_eggs(building):
+    safe_floors = []
+    floor_start_breaking_eggs = (len(building) / 2)
+
+    for floor in range(0, len(building))
+        if floor >= floor_start_breaking_eggs:
+            break eggs
+        else:
+            safe_floors.append(floor)
+
+        return safe_floors
+
+
 

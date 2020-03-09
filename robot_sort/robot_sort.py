@@ -109,14 +109,6 @@ class SortingRobot:
         
         return self._list
 
-        # while self._item == None:
-        #     for self._item in range(0, len(self._list) - 1):
-        #         if self._list[self._item] > self._list[self._position + 1]:
-        #             self._list[self._item], self._list[self._position + 1] = self._list[self._position + 1], self._list[self._item]
-        
-        # return self._list
-
-
 
 if __name__ == "__main__":
     # Test our your implementation from the command line

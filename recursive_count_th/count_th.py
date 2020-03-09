@@ -9,11 +9,11 @@ def count_th(word):
     
     if word == empty_string:
         return 0   
-        lowercase = word.casefold()
-        num = lowercase.count('th')
         
-        if num != 0:
-            count = num
-            return num
+    num = word.count('th')
+    if num != 0:
+        count = num
+    return num
+    
     return count - count_th(word)
         
